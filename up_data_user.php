@@ -15,7 +15,7 @@ $status = $_POST['status'];
 
 // สร้าง Salt
 $length = random_int(99, 999);
-$salt_password = bin2hex(random_bytes($length)); //เห้ยยยยยยยยยยยยยยยยยยยยยยยยยยยย
+$salt_password = bin2hex(random_bytes($length)); 
 $passwordSalt = md5($password . $salt_password);
 $algo = PASSWORD_ARGON2ID; 
 $options =  [
