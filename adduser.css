@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap');
+
+body { 
+    background-color: hwb(0 95% 5%);   
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    animation: fadeIn 2s ease-in-out; /* เพิ่มการทำอนิเมชันให้กับ body */
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 65px;
+    margin: 0; /* ลบ margin เริ่มต้นออก */
+    
+}
+
+.inputs {
+    text-align: center;
+
+}
+
+.inputs input { 
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 500px;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    font-family: "IBM Plex Sans Thai", sans-serif;
+
+}
+
+.inputs input:focus {
+    outline: none;
+    border-color: rgb(0, 121, 36);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+ th, td {
+    border-bottom: 2px solid #e7d3d3;
+    font-size: 25px;
+    margin: 0 auto; /* ตั้งค่า margin ซ้ายและขวาเป็น auto */
+    text-align: center;
+    padding: 8px;
+    
+}
+
+table {
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+
+    
+}
+
+
+.a2 {
+    text-align: center;
+}
+.a2 a {
+    
+    font-size: 20px;
+    text-align: center;
+    color: rgb(34, 255, 0);
+    text-decoration: none;
+    font-weight: bold; 
+
+
+    margin: 0 auto; /* ตั้งค่า margin ซ้ายและขวาเป็น auto */
+  }
+
+.Ayellow a{
+    color: rgb(255, 187, 0);
+    text-decoration: none;
+    font-weight: bold; /* ให้ตัวอักษรเป็นตัวหนา */
+}
+.Ared a{
+    color: rgb(255, 0, 132);
+    text-decoration: none;
+    font-weight: bold; /* ให้ตัวอักษรเป็นตัวหนา */
+}
+
+/* Keyframes สำหรับทำให้ค่อยๆ ชัดขึ้น */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
